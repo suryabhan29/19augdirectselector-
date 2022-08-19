@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>direct child selector ></title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content=",,,,,," />
+        
+        <meta name="description" content=",,,,,," />
+        <style>
+
+                   div.grendparent >div.parent  {
+                    color: red;
+                    border:1px  dashed black
+                    }
+                    div.grendparent{
+                        border: 1px dashed blue
+                    }
+            div.grendparent > div.parent > div.child{
+                color: green;
+                border: 1px dashed orange
+            }
+                    
+
+                    
+
+        </style>
+    </head>
+    <body>
+        
+        <div  class="grendparent" >
+                grendparent
+            <div class="parent">
+                    parent
+                <div class="child">
+                    child
+
+                </div>
+            </div>
+        </div>
+    </body>
